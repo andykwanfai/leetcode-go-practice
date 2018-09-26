@@ -1,4 +1,5 @@
 func maxSubArray(nums []int) int {
+	//dp solution
 	length := len(nums)
 	dp := make([]int, length)
 	dp[0] = nums[0]
